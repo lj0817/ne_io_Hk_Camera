@@ -19,11 +19,13 @@ public:
 	~HkCam();
 	void start();
 	void shutdown();
+	void get_img();
 	//void grab_rgb_image();
     //bool PrintDeviceInfo(MV_CC_DEVICE_INFO *pstMVDevInfo);
 	unsigned char *pData;
 	MVCC_INTVALUE stParam;
-	MV_FRAME_OUT stImageInfo ;
+	MV_FRAME_OUT stImageInfo;
+	void *handle;
 private:
 	int WidthValue;
     int HeightValue;
@@ -32,7 +34,6 @@ private:
     float GainValue;
 	float newexposuretime;
 
-	void *handle;
 	//unsigned char *pData;
 	
 	int nRet;
