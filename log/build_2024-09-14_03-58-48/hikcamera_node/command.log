@@ -1,2 +1,0 @@
-Invoking command in '/home/lj/ne_io_Hik_Camera/build/hikcamera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lj/ne_io_Hik_Camera/build/hikcamera_node -- -j4 -l4
-Invoked command in '/home/lj/ne_io_Hik_Camera/build/hikcamera_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lj/ne_io_Hik_Camera/build/hikcamera_node -- -j4 -l4

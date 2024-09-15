@@ -12,16 +12,17 @@ class ImagePublisher : public rclcpp::Node
 {
 public:
    ImagePublisher(const std::string &name);
+    ~ImagePublisher();
 
 private:
     void hikImgCallback();
-
     
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_publisher_;
     
     std::unique_ptr<cv::Mat> src;
     
     HkCam hk_cam_; 
+    std::thread cam_thread_;
 
     rclcpp::TimerBase::SharedPtr timer_;
 };
