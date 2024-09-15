@@ -1,0 +1,26 @@
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:10[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:[m[K In constructor ‘[01m[KHkCam::HkCam()[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:38:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KHkCam::nRet[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   38 |         int [01;35m[KnRet[m[K;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:24:24:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kunsigned char* HkCam::pData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   24 |         unsigned char *[01;35m[KpData[m[K;
+      |                        [01;35m[K^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   12 | [01;35m[KHkCam[m[K::HkCam()
+      | [01;35m[K^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:[m[K In member function ‘[01m[Kvoid HkCam::start()[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:51:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   51 |                 for (int i = 0; [01;35m[Ki < stDeviceList.nDeviceNum[m[K; i++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:70:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint*[m[K’, but argument 2 has type ‘[01m[Kunsigned int*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   70 |         scanf("[01;35m[K%d[m[K", [32m[K&nIndex[m[K);
+      |                [01;35m[K~^[m[K   [32m[K~~~~~~~[m[K
+      |                 [01;35m[K|[m[K   [32m[K|[m[K
+      |                 [01;35m[K|[m[K   [32m[Kunsigned int*[m[K
+      |                 [01;35m[Kint*[m[K
+      |                [32m[K%d[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:97:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_::stFrameInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   97 |         MV_FRAME_OUT stImageInfo = {0[01;35m[K}[m[K;
+      |                                      [01;35m[K^[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:97:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_::nRes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]

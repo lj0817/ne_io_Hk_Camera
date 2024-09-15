@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001476] (hikcamera_node) JobQueued: {'identifier': 'hikcamera_node', 'dependencies': OrderedDict()}
+[0.002250] (hikcamera_node) JobStarted: {'identifier': 'hikcamera_node'}
+[0.089876] (hikcamera_node) JobProgress: {'identifier': 'hikcamera_node', 'progress': 'cmake'}
+[0.090875] (hikcamera_node) JobProgress: {'identifier': 'hikcamera_node', 'progress': 'build'}
+[0.091642] (hikcamera_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lj/ne_io_Hik_Camera/build/hikcamera_node', '--', '-j4', '-l4'], 'cwd': '/home/lj/ne_io_Hik_Camera/build/hikcamera_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'lj'), ('LC_TIME', 'en_CA.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/lj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2748'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a3d8c492fbdd135308564d66e460c6'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lj/ne_io_Hik_Camera/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lj-virtual-machine:@/tmp/.ICE-unix/2748,unix/lj-virtual-machine:/tmp/.ICE-unix/2748'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ee713d95_f2ac_4e67_8f69_ccb148112360'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9b6703c7d4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lj/ne_io_Hik_Camera/install/hikcamera_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lj/ne_io_Hik_Camera/build/hikcamera_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a3d8c492fbdd135308564d66e460c6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lj/ne_io_Hik_Camera/install/hikcamera_node:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.101190] (-) TimerEvent: {}
+[0.189579] (hikcamera_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_node\x1b[0m\n'}
+[0.201853] (-) TimerEvent: {}
+[0.228386] (hikcamera_node) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/camera_node.dir/src/hik_camera_node.cpp.o\x1b[0m\n'}
+[0.302048] (-) TimerEvent: {}
+[0.403190] (-) TimerEvent: {}
+[0.504099] (-) TimerEvent: {}
+[0.604602] (-) TimerEvent: {}
+[0.706412] (-) TimerEvent: {}
+[0.806738] (-) TimerEvent: {}
+[0.907272] (-) TimerEvent: {}
+[1.007794] (-) TimerEvent: {}
+[1.108290] (-) TimerEvent: {}
+[1.208895] (-) TimerEvent: {}
+[1.310396] (-) TimerEvent: {}
+[1.411137] (-) TimerEvent: {}
+[1.512079] (-) TimerEvent: {}
+[1.613483] (-) TimerEvent: {}
+[1.714350] (-) TimerEvent: {}
+[1.815059] (-) TimerEvent: {}
+[1.915680] (-) TimerEvent: {}
+[2.016170] (-) TimerEvent: {}
+[2.117607] (-) TimerEvent: {}
+[2.219111] (-) TimerEvent: {}
+[2.319723] (-) TimerEvent: {}
+[2.420318] (-) TimerEvent: {}
+[2.521156] (-) TimerEvent: {}
+[2.621640] (-) TimerEvent: {}
+[2.722195] (-) TimerEvent: {}
+[2.822764] (-) TimerEvent: {}
+[2.923269] (-) TimerEvent: {}
+[3.023789] (-) TimerEvent: {}
+[3.124204] (-) TimerEvent: {}
+[3.224723] (-) TimerEvent: {}
+[3.326841] (-) TimerEvent: {}
+[3.427177] (-) TimerEvent: {}
+[3.528134] (-) TimerEvent: {}
+[3.629279] (-) TimerEvent: {}
+[3.731112] (-) TimerEvent: {}
+[3.832181] (-) TimerEvent: {}
+[3.932829] (-) TimerEvent: {}
+[4.033808] (-) TimerEvent: {}
+[4.135419] (-) TimerEvent: {}
+[4.236015] (-) TimerEvent: {}
+[4.336601] (-) TimerEvent: {}
+[4.437147] (-) TimerEvent: {}
+[4.477654] (hikcamera_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.478543] (hikcamera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImagePublisher::ImagePublisher(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.478869] (hikcamera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:24:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImagePublisher::hk_cam_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.479013] (hikcamera_node) StderrLine: {'line': b'   24 |     HkCam \x1b[01;35m\x1b[Khk_cam_\x1b[m\x1b[K;\n'}
+[4.479137] (hikcamera_node) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.479269] (hikcamera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:20:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::SharedPtr ImagePublisher::image_publisher_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.479448] (hikcamera_node) StderrLine: {'line': b'   20 |     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr \x1b[01;35m\x1b[Kimage_publisher_\x1b[m\x1b[K;\n'}
+[4.479631] (hikcamera_node) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.484538] (hikcamera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:5:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.484647] (hikcamera_node) StderrLine: {'line': b'    5 | \x1b[01;35m\x1b[KImagePublisher\x1b[m\x1b[K::ImagePublisher(const std::string &name)\n'}
+[4.484751] (hikcamera_node) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.491060] (hikcamera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImagePublisher::hikImgCallback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.491251] (hikcamera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:25:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass HkCam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KpBufAddr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.491324] (hikcamera_node) StderrLine: {'line': b'   25 |     memcpy(src.data, hk_cam_.\x1b[01;31m\x1b[KpBufAddr\x1b[m\x1b[K, hk_cam_.stImageInfo.stFrameInfo.nWidth * hk_cam_.stImageInfo.stFrameInfo.nHeight);\n'}
+[4.491388] (hikcamera_node) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.537326] (-) TimerEvent: {}
+[4.637874] (-) TimerEvent: {}
+[4.738394] (-) TimerEvent: {}
+[4.838994] (-) TimerEvent: {}
+[4.939615] (-) TimerEvent: {}
+[5.040229] (-) TimerEvent: {}
+[5.140810] (-) TimerEvent: {}
+[5.241372] (-) TimerEvent: {}
+[5.342025] (-) TimerEvent: {}
+[5.442602] (-) TimerEvent: {}
+[5.543928] (-) TimerEvent: {}
+[5.644764] (-) TimerEvent: {}
+[5.745355] (-) TimerEvent: {}
+[5.846002] (-) TimerEvent: {}
+[5.947070] (-) TimerEvent: {}
+[6.047573] (-) TimerEvent: {}
+[6.148107] (-) TimerEvent: {}
+[6.248551] (-) TimerEvent: {}
+[6.349257] (-) TimerEvent: {}
+[6.449729] (-) TimerEvent: {}
+[6.550298] (-) TimerEvent: {}
+[6.601198] (hikcamera_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera_node.dir/build.make:90\xef\xbc\x9aCMakeFiles/camera_node.dir/src/hik_camera_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[6.601374] (hikcamera_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/camera_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.601789] (hikcamera_node) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.607237] (hikcamera_node) CommandEnded: {'returncode': 2}
+[6.650580] (-) TimerEvent: {}
+[6.738935] (hikcamera_node) JobEnded: {'identifier': 'hikcamera_node', 'rc': 2}
+[6.751046] (-) EventReactorShutdown: {}

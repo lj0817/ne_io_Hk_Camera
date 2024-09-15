@@ -1,0 +1,264 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/hik_camera_io.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/hik_camera_node.cpp.o[0m
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:10[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:[m[K In constructor ‘[01m[KHkCam::HkCam()[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:36:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KHkCam::nRet[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   36 |         int [01;35m[KnRet[m[K;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:34:24:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kunsigned char* HkCam::pData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 |         unsigned char *[01;35m[KpData[m[K;
+      |                        [01;35m[K^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   12 | [01;35m[KHkCam[m[K::HkCam()
+      | [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:10[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:34:24:[m[K [01;35m[Kwarning: [m[K‘[01m[KHkCam::pData[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 |         unsigned char *[01;35m[KpData[m[K;
+      |                        [01;35m[K^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:26:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint HkCam::WidthValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   26 |         int [01;35m[KWidthValue[m[K;
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   12 | [01;35m[KHkCam[m[K::HkCam()
+      | [01;35m[K^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:[m[K In member function ‘[01m[Kvoid HkCam::start()[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:51:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   51 |                 for (int i = 0; [01;35m[Ki < stDeviceList.nDeviceNum[m[K; i++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:70:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint*[m[K’, but argument 2 has type ‘[01m[Kunsigned int*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   70 |         scanf("[01;35m[K%d[m[K", [32m[K&nIndex[m[K);
+      |                [01;35m[K~^[m[K   [32m[K~~~~~~~[m[K
+      |                 [01;35m[K|[m[K   [32m[K|[m[K
+      |                 [01;35m[K|[m[K   [32m[Kunsigned int*[m[K
+      |                 [01;35m[Kint*[m[K
+      |                [32m[K%d[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nHeight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   99 |         MV_FRAME_OUT_INFO_EX stImageInfo = {0[01;35m[K}[m[K;
+      |                                              [01;35m[K^[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::enPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nFrameNum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nDevTimeStampHigh[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nDevTimeStampLow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nReserved0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nHostTimeStamp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nFrameLen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nSecondCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nCycleCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nCycleOffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::fGain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::fExposureTime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nAverageBrightness[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nRed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nGreen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nBlue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nFrameCounter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nTriggerIndex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nInput[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nOutput[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nOffsetX[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nOffsetY[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nChunkWidth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nChunkHeight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nLostPacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nUnparsedChunkNum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::UnparsedChunkList[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nExtendWidth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nExtendHeight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_io.cpp:99:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_FRAME_OUT_INFO_EX_::nReserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:15:5:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+   15 |     [01;31m[Kvoid[m[K ImagePublisher::ImagePublisher();
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:15:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KImagePublisher::[m[K’ on member ‘[01m[KImagePublisher[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   15 |     void [01;31m[KImagePublisher[m[K::ImagePublisher();
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:18:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KImagePublisher::[m[K’ on member ‘[01m[KhikImgCallback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     void [01;31m[KImagePublisher[m[K::hikImgCallback(void* pUser)
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:18:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |     void ImagePublisher::hikImgCallback(void* pUser[01;31m[K)[m[K
+      |                                                    [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:22:24:[m[K [01;31m[Kerror: [m[K‘[01m[KsharedPtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+   22 |     rclcpp::TimerBase::[01;31m[KsharedPtr[m[K timer_;
+      |                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:12:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+   12 | [01;31m[Kclass[m[K ImagePublisher : public rclcpp::Node
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:12:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[KImagePublisher[m[K’)
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:12:1:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:[m[K In constructor ‘[01m[KImagePublisher::ImagePublisher()[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:4:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kname[m[K’ was not declared in this scope; did you mean ‘[01m[Krosidl_generator_traits::name[m[K’?
+    4 |     :Node([01;31m[Kname[m[K),
+      |           [01;31m[K^~~~[m[K
+      |           [32m[Krosidl_generator_traits::name[m[K
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:4[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:155:21:[m[K [01;36m[Knote: [m[K‘[01m[Krosidl_generator_traits::name[m[K’ declared here
+  155 | inline const char * [01;36m[Kname[m[K();
+      |                     [01;36m[K^~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:8:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport(ImagePublisher*)[m[K’
+    8 |     image_transport::ImageTransport it(this[01;31m[K)[m[K;
+      |                                            [01;31m[K^[m[K
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:7[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)[m[K’
+  111 |   explicit [01;36m[KImageTransport[m[K(rclcpp::Node::SharedPtr node);
+      |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KImagePublisher*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+  111 |   explicit ImageTransport([01;36m[Krclcpp::Node::SharedPtr node[m[K);
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_publiser_[m[K’ was not declared in this scope; did you mean ‘[01m[Kimage_publisher_[m[K’?
+   10 |     [01;31m[Kimage_publiser_[m[K = it.adversise("camera/image raw",1);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kimage_publisher_[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:10:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass image_transport::ImageTransport[m[K’ has no member named ‘[01m[Kadversise[m[K’; did you mean ‘[01m[Kadvertise[m[K’?
+   10 |     image_publiser_ = it.[01;31m[Kadversise[m[K("camera/image raw",1);
+      |                          [01;31m[K^~~~~~~~~[m[K
+      |                          [32m[Kadvertise[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   12 |     [01;31m[Ktimer_[m[K=this->create_wall_timer(
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:4[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+/usr/include/c++/11/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (ImagePublisher::*)(void*), ImagePublisher*>[m[K’:
+[01m[K/usr/include/c++/11/functional:768:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (ImagePublisher::*)(void*), ImagePublisher*>[m[K’
+[01m[K/usr/include/c++/11/functional:789:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (ImagePublisher::*)(void*); _BoundArgs = {ImagePublisher*}][m[K’
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:14:18:[m[K   required from here
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  755 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  756 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  757 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))[m[K’ evaluates to false
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:12:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KImagePublisher::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (ImagePublisher::*)(void*), ImagePublisher*>::type)[m[K’
+   12 |     timer_=[01;31m[Kthis->create_wall_timer([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   13 | [01;31m[K        std::chrono::milliseconds(100),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   14 | [01;31m[K        std::bind(&ImagePublisher::hikImgCallback,this)[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   15 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                              
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:4[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  238 |   [01;36m[Kcreate_wall_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:4[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (ImagePublisher::*(ImagePublisher*))(void*)>][m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:12:35:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+  110 | [01;31m[KNode[m[K::create_wall_timer(
+      | [01;31m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:[m[K In member function ‘[01m[Kvoid ImagePublisher::hikImgCallback(void*)[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:21:11:[m[K [01;31m[Kerror: [m[K‘[01m[KCamera_node[m[K’ does not name a type
+   21 |     const [01;31m[KCamera_node[m[K *thisPtr = (Camera_node*)pUser;
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:22:35:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_FRAME_OUT_INFO_EX HkCam::stImageInfo[m[K’ is private within this context
+   22 |     cv::Mat src = cv::Mat(hk_cam_.[01;31m[KstImageInfo[m[K.nHeight, hk_cam_.stImageInfo.nWidth, CV_8UC1);
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:10[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:38:30:[m[K [01;36m[Knote: [m[Kdeclared private here
+   38 |         MV_FRAME_OUT_INFO_EX [01;36m[KstImageInfo[m[K ;
+      |                              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:23:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kunsigned char* HkCam::pData[m[K’ is private within this context
+   23 |     memcpy(src.data, hk_cam_.[01;31m[KpData[m[K, hk_cam_.stImageInfo.nWidth * hk_cam_.stImageInfo.nHeight* 1);
+      |                              [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:10[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:34:24:[m[K [01;36m[Knote: [m[Kdeclared private here
+   34 |         unsigned char *[01;36m[KpData[m[K;
+      |                        [01;36m[K^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:23:45:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_FRAME_OUT_INFO_EX HkCam::stImageInfo[m[K’ is private within this context
+   23 |     memcpy(src.data, hk_cam_.pData, hk_cam_.[01;31m[KstImageInfo[m[K.nWidth * hk_cam_.stImageInfo.nHeight* 1);
+      |                                             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:10[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:38:30:[m[K [01;36m[Knote: [m[Kdeclared private here
+   38 |         MV_FRAME_OUT_INFO_EX [01;36m[KstImageInfo[m[K ;
+      |                              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:23:74:[m[K [01;31m[Kerror: [m[K‘[01m[KMV_FRAME_OUT_INFO_EX HkCam::stImageInfo[m[K’ is private within this context
+   23 |     memcpy(src.data, hk_cam_.pData, hk_cam_.stImageInfo.nWidth * hk_cam_.[01;31m[KstImageInfo[m[K.nHeight* 1);
+      |                                                                          [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:10[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_io.hpp:38:30:[m[K [01;36m[Knote: [m[Kdeclared private here
+   38 |         MV_FRAME_OUT_INFO_EX [01;36m[KstImageInfo[m[K ;
+      |                              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:24:24:[m[K [01;31m[Kerror: [m[K‘[01m[KthisPtr[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+   24 |     cv::cvtColor(src, *[01;31m[KthisPtr[m[K->src, cv::COLOR_BayerGR2BGR_EA);
+      |                        [01;31m[K^~~~~~~[m[K
+      |                        [32m[Kthis[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:20:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpUser[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 | void ImagePublisher::hikImgCallback([01;35m[Kvoid* pUser[m[K){
+      |                                     [01;35m[K~~~~~~^~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:31:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 | int main([01;35m[Kint argc[m[K, char *argv[]){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:31:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 | int main(int argc, [01;35m[Kchar *argv[][m[K){
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:4[m[K,
+                 from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ImagePublisher; _Args = {const char (&)[12]}; _Tp = ImagePublisher][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ImagePublisher; _Args = {const char (&)[12]}; _Tp = ImagePublisher; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ImagePublisher>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[12]}; _Tp = ImagePublisher; _Alloc = std::allocator<ImagePublisher>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ImagePublisher; _Alloc = std::allocator<ImagePublisher>; _Args = {const char (&)[12]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImagePublisher>; _Args = {const char (&)[12]}; _Tp = ImagePublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImagePublisher>; _Args = {const char (&)[12]}; _Tp = ImagePublisher][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ImagePublisher; _Alloc = std::allocator<ImagePublisher>; _Args = {const char (&)[12]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ImagePublisher; _Args = {const char (&)[12]}][m[K’
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:32:50:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KImagePublisher::ImagePublisher(const char [12])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:3:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KImagePublisher::ImagePublisher()[m[K’
+    3 | [01;36m[KImagePublisher[m[K::ImagePublisher()
+      | [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:3:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/camera_node.dir/build.make:90：CMakeFiles/camera_node.dir/src/hik_camera_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/camera_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

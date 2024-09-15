@@ -1,0 +1,23 @@
+[0.091s] Invoking command in '/home/lj/ne_io_Hik_Camera/build/hikcamera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lj/ne_io_Hik_Camera/build/hikcamera_node -- -j4 -l4
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[0.329s] [100%] Built target camera_node
+[0.399s] Invoked command in '/home/lj/ne_io_Hik_Camera/build/hikcamera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lj/ne_io_Hik_Camera/build/hikcamera_node -- -j4 -l4
+[0.554s] Invoking command in '/home/lj/ne_io_Hik_Camera/build/hikcamera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lj/ne_io_Hik_Camera/build/hikcamera_node
+[0.566s] -- Install configuration: ""
+[0.566s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/lib/hikcamera_node/camera_node
+[0.567s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/ament_index/resource_index/package_run_dependencies/hikcamera_node
+[0.567s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/ament_index/resource_index/parent_prefix_path/hikcamera_node
+[0.568s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/ament_prefix_path.sh
+[0.569s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/ament_prefix_path.dsv
+[0.569s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/path.sh
+[0.569s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/path.dsv
+[0.569s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.bash
+[0.569s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.sh
+[0.569s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.zsh
+[0.569s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.dsv
+[0.570s] -- Installing: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/package.dsv
+[0.571s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/ament_index/resource_index/packages/hikcamera_node
+[0.571s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/cmake/hikcamera_nodeConfig.cmake
+[0.571s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/cmake/hikcamera_nodeConfig-version.cmake
+[0.577s] -- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/package.xml
+[0.597s] Invoked command in '/home/lj/ne_io_Hik_Camera/build/hikcamera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lj/ne_io_Hik_Camera/build/hikcamera_node

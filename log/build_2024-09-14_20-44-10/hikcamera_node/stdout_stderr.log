@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/hik_camera_node.cpp.o[0m
+In file included from [01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:1[m[K:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:[m[K In constructor ‘[01m[KImagePublisher::ImagePublisher(const string&)[m[K’:
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:24:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KImagePublisher::hk_cam_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   24 |     HkCam [01;35m[Khk_cam_[m[K;
+      |           [01;35m[K^~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/include/hik_camera_node.hpp:20:59:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::SharedPtr ImagePublisher::image_publisher_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr [01;35m[Kimage_publisher_[m[K;
+      |                                                           [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lj/ne_io_Hik_Camera/src/hikcamera_node/src/hik_camera_node.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    5 | [01;35m[KImagePublisher[m[K::ImagePublisher(const std::string &name)
+      | [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable camera_node[0m
+[100%] Built target camera_node
+-- Install configuration: ""
+-- Installing: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/lib/hikcamera_node/camera_node
+-- Set runtime path of "/home/lj/ne_io_Hik_Camera/install/hikcamera_node/lib/hikcamera_node/camera_node" to "/opt/MVS/lib/64:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib"
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/ament_index/resource_index/package_run_dependencies/hikcamera_node
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/ament_index/resource_index/parent_prefix_path/hikcamera_node
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/path.sh
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/environment/path.dsv
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.bash
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.sh
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.zsh
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/local_setup.dsv
+-- Installing: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/package.dsv
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/ament_index/resource_index/packages/hikcamera_node
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/cmake/hikcamera_nodeConfig.cmake
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/cmake/hikcamera_nodeConfig-version.cmake
+-- Up-to-date: /home/lj/ne_io_Hik_Camera/install/hikcamera_node/share/hikcamera_node/package.xml
